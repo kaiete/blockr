@@ -6,9 +6,9 @@ chromead.hidden = true
 }
 let bingads = document.getElementsByClassName("b_ad")
 let bingads2 = document.getElementsByClassName("b_algo")
-// You're gonna want to disable this if you use Give with Bing, or your nonprofit will be missing out (replace 0 with 1 below)
+// To disable set this to 1 instead of 0
 let disabled = 0
-// Don't change this stuff
+// Don't change this stuff to 1
 if (disabled != 1) {
     bingads[0].hidden = true
     bingads2[0].hidden = true
